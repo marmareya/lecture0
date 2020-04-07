@@ -2,11 +2,93 @@
 <html>
 
   <head>
-    <title>My Webpage ! </title>
+     <title>My Web Pag ! </title>
+     <link rel="stylesheet" href="styles.css" >
+
+     <style>
+         #top {
+           font-size: 36px;
+         }
+
+         #middle {
+           font-size: 24px;
+         }
+
+         #bottom {
+           font-size: 12px;
+         }
+
+         h1 {
+           color: blue;
+           text-align: center;
+         }
+
+         p{
+           color: green
+         }
+
+         div{
+           font-family: Arial, sans-serif;
+           font-size: 28px;
+           font-weight: bold;
+           text-align: center;
+           background-color: pink;
+           width: auto;
+           height: auto;
+           border: 3px dotted teal;
+         }
+
+         table{
+           border: 2px solid blue;
+           border-collapse: collapse;
+           width: 25%;
+         }
+
+         th, td{
+           border: 1px solid black;
+           padding: 5px;
+         }
+
+         th{
+           background-color: lightgray;
+         }
+
+     </style>
   </head>
 
   <body>
+
     <h1> Hello, world! Hello!</h1>
+    <h1 style="color:pink;text-align:center;">Welcome to My Web Page! </h1>
+    <p>Hello, world! This is a paragraph of text.</p>
+    <p>This is another paragraph !</p>
+    <div> Mariam</div>
+
+    <div id= "top">
+      This is the <span class="name">top</span> of my web page.
+    </div>
+    <div id="middle">
+        This is the <span class="name">middle</span> of my web page.
+    </div>
+    <div id="bottom">
+        This is the <span class="name">bottom</span> of my web page.
+    </div>
+    <table>
+      <tr>
+        <th> 1st </th>
+        <th> 2nd </th>
+      </tr>
+      <tr>
+        <th> hr </th>
+        <th> min </th>
+      </tr>
+    </table>
+    <form>
+      <input type="text" placeholder="Full Name" name="name">
+      <button> Submit!</button>
+
+    </form>
+   <img src="what.jpg" width="50%">
   </body>
 
 </html>
