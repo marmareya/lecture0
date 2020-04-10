@@ -6,6 +6,10 @@
      <link rel="stylesheet" href="styles.css" >
 
      <style>
+         ol li {
+           color: maroon;
+         }
+
          #top {
            font-size: 36px;
          }
@@ -53,15 +57,36 @@
            background-color: lightgray;
          }
 
+         input[type=text]{
+           background-color: lightgray;
+         }
+
+
+         input[type=number]{
+           background-color: yellow;
+         }
+
      </style>
   </head>
 
   <body>
 
+    <a href="https://twitter.com/Marmareya"> My twitter </a>
     <h1> Hello, world! Hello!</h1>
     <h1 style="color:pink;text-align:center;">Welcome to My Web Page! </h1>
     <p>Hello, world! This is a paragraph of text.</p>
     <p>This is another paragraph !</p>
+    <ul>
+      <li><a herf="#section1">Section 1</a></li>
+      <li><a herf="#section2">Section 1</a></li>
+    </ul>
+    <h2 id="section1"> Section 1</h2>
+    <p>
+      what?
+    </p>
+    <h2 id="section2"> Section 2</h2>
+
+
     <div> Mariam</div>
 
     <div id= "top">
@@ -83,11 +108,51 @@
         <th> min </th>
       </tr>
     </table>
-    <form>
+    <from>
+      <input name="name" type="text" placeholder="first name">
+      <input name="name" type="text" placeholder="last name">
+      <input name="name" type="number" placeholder="Age">
+    </form>
+
+    <from>
+
+      <div>
+        <input name="name" type="text" placeholder="Name">
+        <input name="password" type="password" placeholder="Password">
+      </div>
+
+      <div>
+        favorite color?
+        <input name="color" type="radio" value="red"> Red
+        <input name="color" type="radio" value="green"> Green
+        <input name="color" type="radio" value="blue"> Blue
+        <input name="color" type="radio" value="other"> Other
+      </div>
+
+      <div>
+        <input name="country" list="countries" placeholder="Country">
+        <datalist id="countries">
+          <option value="Egypt">
+          <option value="Kuwait">
+          <option value="UAE">
+      </div>
+
+      <ol>
+        <li> list item one</li>
+        <li> list item two</li>
+        <ul>
+          <li> sublist item one</li>
+          <li> sublist item two</li>
+        </ul>
+      </ol>
+
+
+
       <input type="text" placeholder="Full Name" name="name">
       <button> Submit!</button>
 
     </form>
+
    <img src="what.jpg" width="50%">
   </body>
 
